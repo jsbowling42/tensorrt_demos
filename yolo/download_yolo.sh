@@ -39,7 +39,7 @@ wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov7-tiny.c
 wget https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov7-tiny.weights -q --show-progress --no-clobber
 
 # yolov7
-wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov7.cfg -q --show-progress --no-clobber
+wget https://raw.githubusercontent.com/jsbowling42/darknet/master/cfg/yolov7.cfg -q --show-progress --no-clobber
 wget https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov7.weights -q --show-progress --no-clobber
 
 # yolov7x
