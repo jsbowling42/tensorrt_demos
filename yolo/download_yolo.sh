@@ -129,7 +129,7 @@ echo "Creating yolov7-320.cfg and yolov7-320.weights"
 cat yolov7.cfg | sed -e '6s/batch=64/batch=1/' | sed -e '8s/width=640/width=320/' | sed -e '9s/height=640/height=320/' > yolov7-320.cfg
 ln -sf yolov7.weights yolov7-320.weights
 echo "Creating yolov7-640.cfg and yolov7-640.weights"
-cat yolov7.cfg | sed -e '6s/batch=64/batch=1/' > yolov7-640.cfg
+cat yolov7.cfg | sed -e '6s/batch=128/batch=1/' > yolov7-640.cfg
 ln -sf yolov7.weights yolov7-640.weights
 
 echo "Creating yolov7x-320.cfg and yolov7x-320.weights"
